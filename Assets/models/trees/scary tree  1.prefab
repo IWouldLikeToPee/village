@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 334367972811581655}
   - component: {fileID: 6335764194681753960}
+  - component: {fileID: 4321901874242857445}
   m_Layer: 0
   m_Name: scary tree  1
   m_TagString: Untagged
@@ -48,7 +49,7 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0
+  - screenRelativeHeight: 0.0898238
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 7635733026521955328}
@@ -57,6 +58,28 @@ LODGroup:
     renderers:
     - renderer: {fileID: 3699490815829937585}
   m_Enabled: 1
+--- !u!64 &4321901874242857445
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468761757489997741}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5576034725880999272, guid: 1d3f947c3b246764d861c21e1474961f, type: 3}
 --- !u!1 &5373511670698659637
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,7 +190,7 @@ Transform:
   m_GameObject: {fileID: 7481090048237622014}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.15999746, y: -0.103550434, z: -0.13600159}
+  m_LocalPosition: {x: 0.015, y: -0.103550434, z: -0.003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

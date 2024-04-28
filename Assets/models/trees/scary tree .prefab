@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 4458502739130843180}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.15999746, y: -0.103550434, z: -0.13600159}
+  m_LocalPosition: {x: -0.024, y: -0.103550434, z: -0.001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -93,6 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4731670975976083800}
   - component: {fileID: 1735607239412772828}
+  - component: {fileID: 3432217218535263736}
   m_Layer: 0
   m_Name: 'scary tree '
   m_TagString: Untagged
@@ -140,6 +141,28 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2239618758620524424}
   m_Enabled: 1
+--- !u!64 &3432217218535263736
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5064147162820610642}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5576034725880999272, guid: 1d3f947c3b246764d861c21e1474961f, type: 3}
 --- !u!1 &6810905201756066548
 GameObject:
   m_ObjectHideFlags: 0
