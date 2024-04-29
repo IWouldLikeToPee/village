@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 4731670975976083800}
   - component: {fileID: 1735607239412772828}
   - component: {fileID: 3432217218535263736}
+  - component: {fileID: 8860578110928848956}
   m_Layer: 0
   m_Name: 'scary tree '
   m_TagString: Untagged
@@ -163,6 +164,29 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5576034725880999272, guid: 1d3f947c3b246764d861c21e1474961f, type: 3}
+--- !u!136 &8860578110928848956
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5064147162820610642}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 17.12
+  m_Direction: 1
+  m_Center: {x: 0, y: 7.93, z: 0}
 --- !u!1 &6810905201756066548
 GameObject:
   m_ObjectHideFlags: 0
